@@ -1,0 +1,144 @@
+/* membuat kode css */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+/* Kelas utama untuk header */
+.header {
+  padding: 20px; /* Padding untuk memberi ruang di dalam header */
+  align-items: center; /* Menyelaraskan elemen anak secara horizontal di tengah */
+  text-align: center; /* Menyelaraskan teks di dalam elemen ke tengah */
+}
+
+/* Kelas untuk logo di dalam header */
+.header .logo {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.header p,
+h2 {
+  margin: 0; /* Menghapus margin bawaan dari browser */
+}
+
+.header .baris1 {
+  border: 4px; /* Menghapus border bawaan */
+  height: 10px; /* Ketebalan garis */
+  background-color: #e7b718; /* Warna garis, sesuaikan dengan kebutuhan */
+  margin: 5px 0; /* Memberikan ruang di atas dan di bawah garis, sesuaikan dengan kebutuhan */
+}
+
+.header .baris2 {
+  border: 5px; /* Menghapus border bawaan */
+  height: 2px; /* Ketebalan garis */
+  background-color: #606be7; /* Warna garis, sesuaikan dengan kebutuhan */
+  margin: 2px 0; /* Memberikan ruang di atas dan di bawah garis, sesuaikan dengan kebutuhan */
+  margin-bottom: 15px;
+}
+
+/*=====================================================*/
+.formulir {
+  padding: 5px;
+}
+
+.formulir form {
+  max-width: 400px; /* Atur lebar maksimum formulir sesuai kebutuhan */
+  margin: 0 auto; /* Pusatkan formulir secara horizontal */
+}
+
+.formulir label {
+  display: block;
+  margin-bottom: 5px;
+  color: #f98f38; /* Warna teks label, sesuaikan dengan kebutuhan */
+}
+
+.formulir input[type="text"],
+select,
+input[type="number"],
+input[type="time"],
+input[type="date"],
+button[type="submit"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-color: #e7812f;
+  color: #606be7;
+}
+
+.formulir .tombol {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.tombol {
+  margin-left: 40px;
+  background-color: #eb6c04; /* Warna latar belakang tombol, sesuaikan dengan kebutuhan */
+  color: #fff; /* Warna teks tombol, sesuaikan dengan kebutuhan */
+  padding: 10px 20px; /* Memberikan ruang di sekitar teks tombol, sesuaikan dengan kebutuhan */
+  border: none; /* Menghapus border bawaan */
+  border-radius: 5px; /* Memberikan sudut yang melengkung pada tombol, sesuaikan dengan kebutuhan */
+  cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+  font-size: 16px; /* Ukuran teks tombol, sesuaikan dengan kebutuhan */
+  margin-right: 10px; /* Memberikan jarak antara tombol */
+}
+.formulir input[type="submit"]:hover,
+input[type="button"]:hover {
+  background-color: #3741f1; /* Warna latar belakang tombol saat dihover, sesuaikan dengan kebutuhan */
+}
+
+button.tombol {
+  background-color: #e7812f; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Add some margin */
+  cursor: pointer; /* Pointer/hand icon on hover */
+  border-radius: 8px; /* Rounded corners */
+  transition-duration: 0.4s; /* Make the transition smooth */
+}
+
+.tombol:hover {
+  background-color: white; /* White background on hover */
+  color: black; /* Black text on hover */
+  border: 2px solid #4caf50; /* Green border on hover */
+}
+
+/*=====================================================*/
+.tampildata table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.tersedia {
+  color: green;
+  padding: 0;
+}
+
+.tidak-tersedia {
+  color: red;
+}
+
+/*=====================================================*/
